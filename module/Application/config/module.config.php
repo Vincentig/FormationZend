@@ -14,7 +14,7 @@ return array(
     'router' => array(
         'routes' => array(
             'home' => array(
-                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'type' => 'Zend\Mvc\Router\Http\Literal', //Literal  = url exacte
                 'options' => array(
                     'route' => '/',
                     'defaults' => array(
